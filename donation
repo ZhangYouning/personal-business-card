@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>打赏页面</title>
+</head>
+<body>
+    <div style="text-align: center; margin-top: 50px;">
+        <h1>感谢你的打赏！</h1>
+        <h3>请扫描下方二维码完成支付</h3>
+        <img src="images/wechat-payment-qr.jpg" alt="微信支付二维码" style="width: 300px;">
+        <p>如果二维码无法显示，请点击 [这里](#) 获取更多信息。</p>
+    </div>
+</body>
+</html>
