@@ -17,6 +17,15 @@
             <p>辩手</p>
             <p>联系方式：<a href="mailto:youningzhang97@gmail.com">youningzhang97@gmail.com</a></p>
         </div>
+   <!-- 加我微信按钮 -->
+        <button onclick="document.getElementById('wechat-qr').style.display='block'">点击加我微信</button>
+
+        <!-- 显示二维码 -->
+        <div id="wechat-qr" style="display: none; text-align: center;">
+            <h3>扫描二维码添加我为好友</h3>
+            <img src="images/wechat-qr.jpg" alt="微信二维码" style="width: 200px;">
+            <p><button onclick="document.getElementById('wechat-qr').style.display='none'">关闭二维码</button></p>
+        </div>
     </div>
 </body>
 </html>
